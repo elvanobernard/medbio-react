@@ -1,0 +1,47 @@
+.container {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  color: #00775b;
+}
+
+.detail {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+  font-weight: 500;
+}
+
+.container strong {
+  font-size: 1.6rem;
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+  color: #00775b;
+}
+
+.container span {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.container button {
+  margin-top: 2.4rem;
+  height: 3.6rem;
+  background-color: #ec337c;
+  color: white;
+  width: 30%;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+
+.container button:hover {
+  background-color: #8b1d49;
+}

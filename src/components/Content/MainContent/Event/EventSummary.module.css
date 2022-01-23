@@ -1,0 +1,51 @@
+.summary {
+  height: 30rem;
+  /* background-color: bisque; */
+  box-shadow: 0 5px 8px 8px rgba(0, 0, 0, 0.075);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+}
+
+.summary img {
+  height: 100%;
+}
+
+.summary-info {
+  padding: 1.6rem;
+}
+
+.summary-info h3 {
+  font-size: 2.4rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.summary span {
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: inline-block;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.summary-info p {
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  color: rgb(43, 43, 43);
+}
+
+.summary-info button {
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: #34a695;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.summary-info button:hover {
+  background-color: #277a6e;
+}

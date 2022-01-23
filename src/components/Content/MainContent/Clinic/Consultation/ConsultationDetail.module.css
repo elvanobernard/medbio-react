@@ -1,0 +1,17 @@
+.container {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #00775b;
+}
+
+.detail {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+  font-weight: 500;
+}
